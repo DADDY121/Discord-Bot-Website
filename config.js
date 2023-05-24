@@ -5,14 +5,14 @@ import { MdAddModerator } from "react-icons/md";
 import { SiProbot } from "react-icons/si";
 import { TbMessage2Code } from "react-icons/tb";
 const config = {
-  name: "ProBot",
+  name: "Musify",
   //BotName
   inviteLink:
-    "https://discord.com/oauth2/authorize?client_id=879602399067660338&permissions=8&scope=bot&redirect_uri=https://docs.markos.ga&response_type=code",
+    "https://discord.com/api/oauth2/authorize?client_id=1109145116054138961&permissions=8&scope=bot",
   //BotInvite Link
   Features: [
     {
-      name: "Moderation",
+      name: "Best Quality",
       description:
         "Moderation is the process of eliminating or lessening extremes.",
       logo: <MdAddModerator className="h-10 w-10" />,
@@ -24,13 +24,13 @@ const config = {
       logo: <SiProbot className="h-10 w-10" />,
     },
     {
-      name: "Automation",
+      name: "24/7",
       description:
         "Automation describes a wide range of technologies that reduce  human intervention in processes.",
       logo: <TbMessage2Code className="h-10 w-10" />,
     },
     {
-      name: "Welcomer",
+      name: "Filters",
       description:
         "Welcomer is the person who greet the new person in an unique and great way",
       logo: <CgCrown className="h-10 w-10" />,
@@ -38,9 +38,9 @@ const config = {
     // You can added more features if need add
   ],
   //Bot Features
-  serverCount: 300, //-  - Your
-  memberCount: 700, //--   - Bot
-  executedCommand: 27000, //--  - Stats
+  serverCount: 19725, //-  - Your
+  memberCount: 12882635, //--   - Bot
+  executedCommand: 1227000, //--  - Stats
   availableCommand: 400, //---   - Here
   //Do not change if you don't know about them
   faceBookLogo: (
@@ -54,12 +54,12 @@ const config = {
   ),
   //----------------------------------------------------------------
   // Your social handle links
-  githubLink: "https://github.com/mohitmimani",
+  githubLink: "https://github.com/",
   twitterLink: "https://twitter.com",
   mediumLink: "https://medium.com/",
   facebookLink: "https://facebook.com",
-  discordLink: "https://discord.com",
-  youtubeLink: "https://www.youtube.com/channel/UCfhRHeex9lU0ZAVJot6Z2ZQ",
+  discordLink: "https://discord.gg/uuGHyuq2rk",
+  youtubeLink: "https://www.youtube.com/channel/",
 };
 
 export default config;
